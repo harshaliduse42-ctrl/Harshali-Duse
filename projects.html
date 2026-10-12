@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Harshali, UI/UX Designer</title>
+  <meta name="description" content="UI/UX, web and graphic design projects by Harshali.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="projects">
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Home"><img src="assets/img/logo.png" alt="HD logo"></a>
+    <nav class="nav-pill" aria-label="Main">
+      <a href="index.html">About Me</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="filters" role="tablist" aria-label="Filter projects">
+      <button class="filter" role="tab" aria-selected="true" data-filter="all">All</button>
+      <button class="filter" role="tab" aria-selected="false" data-filter="uiux">UI/UX</button>
+      <button class="filter" role="tab" aria-selected="false" data-filter="web">Web Design</button>
+      <button class="filter" role="tab" aria-selected="false" data-filter="graphic">Graphic Design</button>
+    </div>
+    <section class="panel on-teal" id="projects" aria-label="Projects">
+      <div class="cards2" id="project-grid"></div>
+    </section>
+    <section id="contact" class="after-projects" aria-label="Contact"></section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
